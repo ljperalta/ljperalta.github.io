@@ -11,6 +11,17 @@
       background-repeat: no-repeat;
       background-attachment: fixed
   }
+  .content{
+    min-height: 75%;
+  }
+  footer {
+    padding: 10px;
+  }
+  .content::after {
+    content: "";
+    display: block;
+    height: 50px;
+  }
   header {
     display: flex;
     align-items: center;
@@ -40,9 +51,7 @@
     text-decoration: none;
     color: #1c1c1c;
   }
-  footer {
-    display: block;
-  }
+
   .logos{
     max-width: 3rem;
   }
