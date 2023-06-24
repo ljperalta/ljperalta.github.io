@@ -10,7 +10,15 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed
-  } 
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 2rem;
+    background-color: #ececec;
+    opacity: 0.5;
+  }
   h1 { 
       color: red; padding: 60px; 
   }
