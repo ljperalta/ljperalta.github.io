@@ -6,7 +6,7 @@
   }
   /*////////////INDEX///////////////*/
   body { 
-      background-image: url('fondo2.jpg');
+      background-image: url('black-mirror-1.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed
@@ -16,6 +16,8 @@
   }
   footer {
     padding: 10px;
+    background-color: #ececec;
+    opacity: 0.5;
   }
   .content::after {
     content: "";
@@ -31,7 +33,7 @@
     opacity: 0.5;
   }
   .logo{
-    max-width: 4rem;
+    max-width: 6rem;
     border-radius: 30px;
   }
   h1 { 
