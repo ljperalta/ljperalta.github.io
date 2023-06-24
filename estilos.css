@@ -15,9 +15,15 @@
     min-height: 75%;
   }
   footer {
+    display: flex;
+    justify-content: center;
     padding: 10px;
     background-color: #ececec;
     opacity: 0.5;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
   }
   .content::after {
     content: "";
