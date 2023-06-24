@@ -52,12 +52,7 @@
   h2 { 
       color: gainsboro; padding: 60px; 
   }
-  .abrir-menu{
-    display: none;
-  }
-  .cerrar-menu {
-    display: none;
-  }
+
   .nav-list{
     list-style-type: none;
     display: flex;
@@ -67,9 +62,13 @@
     text-decoration: none;
     color: #1c1c1c;
   }
-
+  .abrir-menu,
+  .cerrar-menu {
+      display: none;
+  }
   .logos{
     max-width: 3rem;
+    margin-right: 2rem;
   }
   /*////////////FORMULARIO DE CONTACTO///////////////*/
   .contact-form {
@@ -179,7 +178,6 @@
       background-color: #1c1c1c;
       padding: 2rem;
       box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-      opacity: 0.5;
     }
     .nav.visible {
       opacity: 1;
