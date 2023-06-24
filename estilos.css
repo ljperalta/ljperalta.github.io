@@ -43,6 +43,9 @@
   footer {
     display: block;
   }
+  .logos{
+    max-width: 3rem;
+  }
   /*////////////FORMULARIO DE CONTACTO///////////////*/
   .contact-form {
       max-width: 400px;
