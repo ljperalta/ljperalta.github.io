@@ -50,24 +50,6 @@
   .nav-list li a{
     color: #ececec;
   }
-  /* header nav ul {
-      display: inline-flex;
-      List-style:none;
-      width: 90%;
-      justify-content: right;
-  }
-  header nav ul li{
-      margin-right: 5%;
-      color: yellow;
-  }
-  header nav ul li a{
-      margin-right: 5%;
-      color: yellow;
-  }
-  
-  header nav ul li a:hover{
-      color: chocolate;
-  } */
   footer {
     display: block;
   }
@@ -129,18 +111,6 @@
       height: 100%;
       object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
     }
-    /*.image-container {
-      height: 800px; /* Altura del contenedor para mostrar el efecto de scroll *
-      overflow-y: scroll; /* Permite el desplazamiento vertical *
-    }
-    
-    img {
-      width: 100%;
-      opacity: 0; /* Oculta las imágenes por defecto *
-      transition: opacity 0.5s ease; /* Agrega una transición suave *
-    }*/
-  /*////////////////COMENTARIOS///////////////*/
-  
   /*////////////////PERSONAJES///////////////*/
   body article p {
       color: aqua;
