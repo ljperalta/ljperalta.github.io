@@ -32,11 +32,13 @@
     display: none;
   }
   .nav-list{
-    flex-direction: column;
-    align-items: end;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
   }
   .nav-list li a{
-    color: #ececec;
+    text-decoration: none;
+    color: #1c1c1c;
   }
   footer {
     display: block;
