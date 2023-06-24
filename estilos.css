@@ -131,11 +131,20 @@
       /* grid-gap: 1px; Espacio entre las imágenes */
     }
   
-    .abrir-menu{
-      display: block;
-    }
+    .abrir-menu,
     .cerrar-menu{
       display: block;
+      border: 0;
+      font-size: 1.25rem;
+      background-color: transparent;
+      cursor: pointer;
+    }
+    .abrir-menu {
+        color: #1c1c1c;
+    }
+
+    .cerrar-menu {
+        color: #ececec;
     }
     .nav{
       opacity: 0;
