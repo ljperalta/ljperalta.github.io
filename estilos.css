@@ -25,10 +25,14 @@
   header {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
     padding: 2rem;
     background-color: #ececec;
     opacity: 0.5;
+  }
+  .logo{
+    max-width: 4rem;
+    border-radius: 30px;
   }
   h1 { 
       color: red; padding: 60px; 
