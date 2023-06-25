@@ -17,7 +17,7 @@
   footer {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 0.5rem;
     background-color: #ececec;
     opacity: 0.5;
   }
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 0.5rem;
     background-color: #ececec;
     opacity: 0.5;
   }
