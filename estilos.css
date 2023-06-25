@@ -175,6 +175,8 @@
       cursor: pointer;
     }
     .abrir-menu {
+        margin-top: 1rem;
+        margin-right: 1.5rem;
         color: #1c1c1c;
     }
 
@@ -191,7 +193,6 @@
       position: absolute;
       top: 0;
       right: 0;
-      bottom: 0;
       background-color: #1c1c1c;
       padding: 2rem;
       box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
