@@ -135,7 +135,13 @@
       color: gainsboro;
   }
   
-  @media (max-width: 580px) {
+  @media (max-width: 480px) {
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
     body { 
       background-image: url('imagenes/fondo_mobile.webp');
       background-size: cover; 
