@@ -149,7 +149,9 @@
       grid-template-columns: repeat(2, 1fr); /* 3 columnas de ancho igual */
       /* grid-gap: 1px; Espacio entre las imágenes */
     }
-  
+    .menu{
+      flex-direction: column;
+    }
     .abrir-menu,
     .cerrar-menu {
       display: block;
