@@ -6,11 +6,14 @@
   }
   /*////////////INDEX///////////////*/
   body { 
-      background-image: url('black-mirror-1.jpg');
+      background-image: url('imagenes/WEBverdeoscuro.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed
   }
+  h3{color: #0c4646;
+  font-family:Century;
+}
   .content{
     min-height: 75%;
   }
@@ -170,14 +173,14 @@
       font-family: Century, sans-serif;
     }
     body { 
-      background-image: url('imagenes/fondo_mobile.webp');
+      background-image: url('imagenes/Mobile.png');
       background-size: cover; 
       background-repeat: no-repeat;
       background-attachment: fixed
       
     }
     body article p {
-      color: #1c1c1c;
+      color: #ececec;
     }
     h1 { 
       color: #1c1c1c; padding: 60px; 
