@@ -100,6 +100,7 @@
   .contact-form {
       max-width: 400px;
       margin: 0 auto;
+      margin-top: 5%;
   }
   
   .contact-form label,
@@ -108,14 +109,15 @@
   .contact-form button {
       display: block;
       width: 100%;
-      margin-bottom: 10px;
+      margin-bottom: 1.5%;
   }
   
   .contact-form button {
       width: auto;
       padding: 10px 20px;
       background-color: #4CAF50;
-      color: white;
+      color: gainsboro;
+      border-radius: 5px;
       border: none;
       cursor: pointer;
   }
@@ -123,8 +125,9 @@
   .contact-form button:hover {
   background-color: #45a049;
   }
-  #h2-form:hover{
-  background-color: #45a049;
+  #h2-form{
+    background-color: rgba(236, 236, 236, 0.1);
+    border-radius: 5px;
   }
   #h2-imagenes:hover{
     color: white;
@@ -134,7 +137,7 @@
   text-align: center;
   }
   .contact-form label {
-  color: grey;
+  color: gainsboro;
   }
     /*////////////////IMAGENES///////////////*/
     .gallery {
@@ -218,23 +221,20 @@
     body article p {
       color: #ececec;
     }
-    h1 { 
-      color: #1c1c1c; padding: 60px; 
-    }
-    h2 { 
-        color: #1c1c1c; padding: 60px; 
-    }
     .gallery {
       /* display: grid; */
       grid-template-columns: repeat(2, 1fr); /* 3 columnas de ancho igual */
       /* grid-gap: 1px; Espacio entre las imágenes */
     }
     .menu{
+      width: 100%;
       flex-direction: column;
     }
-    .menu p:hover{
-      color: #1c1c1c;
-      background-color: transparent;
+    .contact-form {
+      max-width: none;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 5%;
     }
     .abrir-menu,
     .cerrar-menu {
