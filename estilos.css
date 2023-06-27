@@ -33,7 +33,6 @@
     align-items: center;
     text-align: center;
     gap: 2rem;
-    justify-content: center;
   }
   .menu iframe {
     width: 50%;
@@ -189,6 +188,7 @@
     align-items: center;
     text-align: center;
     gap: 4%;
+    justify-content: center;
   }
   .menu-trialers > div {
     text-align: center;
