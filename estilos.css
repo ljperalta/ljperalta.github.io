@@ -37,14 +37,6 @@
     color: white;
     background-color: rgba(236, 236, 236, 0.1);
   }
-  .menu-trialers {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    gap: 4%;
-  }
-
   .content::after {
     content: "";
     display: block;
@@ -172,7 +164,23 @@
   body article p {
       color: gainsboro;
   }
-  
+  /*/////////////////TRAILERS//////////////////*/
+  .trailer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-trialers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 4%;
+  }
+  .menu-trialers > div {
+    text-align: center;
+    margin: 20px;
+  }
   @media (max-width: 480px) {
     *{
       margin: 0;
