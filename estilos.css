@@ -82,8 +82,10 @@
       font-size: 40px;
       padding: 30px; 
   }
-  h1:hover{
+  h1{
     color: gainsboro;
+  }
+  h1:hover{
     background-color: rgba(236, 236, 236, 0.1);
   }
   h2 { 
