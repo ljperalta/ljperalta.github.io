@@ -254,10 +254,14 @@
       background-color: #ececec;
       opacity: 0.5;
     }
-    .content-h1 { 
+    .content-h1,
+    .content-h1-img {
       color: gainsboro; 
       font-size: 20px;
       padding: 30px; 
+    }
+    .content-h1-img {
+      height: 30%;
     }
     h2 { 
       color: gainsboro;
