@@ -204,6 +204,14 @@
     color: gainsboro;
     background-color: rgba(236, 236, 236, 0.1);
   }
+  .menu-personajes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 4%;
+    justify-content: center;
+  }
   @media (max-width: 480px) {
     *{
       margin: 0;
