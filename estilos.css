@@ -53,6 +53,7 @@
   }
   header {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
@@ -244,6 +245,14 @@
     }
     body article p {
       color: #ececec;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem;
+      background-color: #ececec;
+      opacity: 0.5;
     }
     .content-h1 { 
       color: gainsboro; 
