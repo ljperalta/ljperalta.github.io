@@ -11,9 +11,10 @@
       background-repeat: no-repeat;
       background-attachment: fixed
   }
-  h3{color: #0c4646;
-  font-family:Century;
-}
+  h3{
+    color: #0c4646;
+    font-family:Century;
+  }
   .content{
     min-height: 75%;
   }
@@ -131,7 +132,7 @@
   #h2-imagenes:hover{
     color: white;
     background-color: rgba(236, 236, 236, 0.1);
-    }
+  }
   .contact-form h2{
   text-align: center;
   }
@@ -139,13 +140,13 @@
   color: gainsboro;
   }
     /*////////////////IMAGENES///////////////*/
-    .gallery {
+    .galeria {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 10px; 
       padding: 1%;
     }
-    .gallery2 {
+    .galeria2 {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-auto-rows: 300px;
@@ -258,14 +259,32 @@
       font-size: 20px;
       padding: 30px; 
     }
-    .gallery {
-      /* display: grid; */
-      grid-template-columns: repeat(2, 1fr); /* 3 columnas de ancho igual */
-      /* grid-gap: 1px; Espacio entre las imágenes */
+    h2 { 
+      color: gainsboro;
+      font-size: 15px;
+      padding: 30px; 
+    }
+    .galeria {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .galeria2 {
+      display: flex;
     }
     .menu{
       width: 100%;
       flex-direction: column;
+    }
+    .menu iframe {
+      width: 100%;
+    }
+    .menu p{
+      width: 100%;
+      font-size: 1rem;
+      text-align: center;
+      margin-bottom: 2%;
+      border-radius: 5px;
+      color: gainsboro;
+      background-color: rgba(236, 236, 236, 0.1);
     }
     .contact-form {
       max-width: none;
