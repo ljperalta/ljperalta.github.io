@@ -11,10 +11,9 @@
       background-repeat: no-repeat;
       background-attachment: fixed
   }
-  h3{
-    color: #0c4646;
-    font-family:Century;
-  }
+  h3{color: #0c4646;
+  font-family:Century;
+}
   .content{
     min-height: 75%;
   }
@@ -51,6 +50,14 @@
     content: "";
     display: block;
     height: 50px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #ececec;
+    opacity: 0.5;
   }
   .logo{
     max-width: 6rem;
