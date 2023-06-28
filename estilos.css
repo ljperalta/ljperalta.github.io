@@ -63,7 +63,7 @@
     max-width: 6rem;
     border-radius: 20px;
   }
-  h1 { 
+  .content-h1 { 
       color: gainsboro; 
       font-size: 40px;
       padding: 30px; 
@@ -228,6 +228,11 @@
     }
     body article p {
       color: #ececec;
+    }
+    .content-h1 { 
+      color: gainsboro; 
+      font-size: 20px;
+      padding: 30px; 
     }
     .gallery {
       /* display: grid; */
