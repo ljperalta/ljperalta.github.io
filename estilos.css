@@ -34,6 +34,12 @@
   footer div {
     justify-content: space-between;
   }
+  footer p {
+    font-size: small;
+  }
+  .logos{
+    max-width: 2rem;
+  }
   .menu{
     display: flex;
     flex-direction: row;
@@ -97,9 +103,6 @@
   .abrir-menu,
   .cerrar-menu {
       display: none;
-  }
-  .logos{
-    max-width: 3rem;
   }
   /*////////////FORMULARIO DE CONTACTO///////////////*/
   .contact-form {
