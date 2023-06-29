@@ -337,6 +337,7 @@
     .cerrar-menu {
       display: block;
       border: 0;
+      margin-top: 1.5rem;
       font-size: 1.25rem;
       background-color: transparent;
       cursor: pointer;
