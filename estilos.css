@@ -261,6 +261,10 @@
     color: gainsboro;
     background-color: rgba(236, 236, 236, 0.1);
   }
+  .boton a {
+    color: white;
+    text-decoration: none;
+  }
 
   @media (max-width: 480px) {
     *{
