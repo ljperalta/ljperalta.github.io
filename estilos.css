@@ -54,7 +54,7 @@
   .menu p{
     width: 50%;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     margin-bottom: 2%;
     border-radius: 5px;
     color: gainsboro;
@@ -324,7 +324,6 @@
     .menu p{
       width: 100%;
       font-size: 1rem;
-      text-align: center;
       margin-bottom: 2%;
       margin-top: 5%;
       border-radius: 5px;
