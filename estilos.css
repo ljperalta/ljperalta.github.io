@@ -123,7 +123,7 @@
   }
   
   .contact-form label,
-  .contact-form input,
+  /* .contact-form input, */
   .contact-form textarea,
   .contact-form button {
       display: block;
@@ -157,6 +157,35 @@
   }
   .contact-form label {
   color: gainsboro;
+  }
+
+  .input-group{
+    position: relative;
+  }
+  .input-group__input{
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: 2px solid #fff;
+    background-color: transparent;
+    transition: outline-color 250ms;
+  }
+  .input-group__input:focus{
+    outline-color: #3c50eb;
+  }
+  .input-group__label{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transform-origin: left;
+    color: #fff;
+    transition: transform 200ms;
+  }
+  .input-group__input:focus + .input-group__label,
+  .input-group__input:valid + .input-group__label {
+    transform: translate(0, -30px) scale(0.8);
   }
     /*////////////////IMAGENES///////////////*/
     .galeria {

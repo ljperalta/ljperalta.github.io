@@ -22,18 +22,19 @@
         </nav>
       </header>
       <article class="content">
-        <div class="contact-form">
+        <div class="input-group">
             <h2 id="h2-form">¡CONTACTANOS!</h2>
             <form action="procesar_formulario.php" method="POST">
-                <label for="name">Nombre y Apellido:</label>
-                <input type="text" id="name" name="name" required>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" rows="4"></textarea>
-        
+                
+                <input type="text" id="name" name="name" class="inpu-group__input" required>
+                <label for="name" class="input-group__label">Nombre y Apellido:</label>
+                
+                <input type="email" id="email" name="email" class="inpu-group__input" required>
+                <label for="email" class="input-group__label">Email:</label>
+                
+                <textarea id="message" name="message" class="inpu-group__input" rows="4"></textarea>
+                <label for="message" class="input-group__label">Mensaje:</label>
+
                 <button type="submit">Enviar</button>
             </form>
         </div>
