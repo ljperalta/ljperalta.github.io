@@ -116,22 +116,22 @@
       display: none;
   }
   /*////////////FORMULARIO DE CONTACTO///////////////*/
-  .contact-form {
+  .input-group {
       max-width: 400px;
       margin: 0 auto;
       margin-top: 5%;
   }
   
-  .contact-form label,
-  .contact-form input,
-  .contact-form textarea,
-  .contact-form button {
+  .input-group label,
+  .input-group input,
+  .input-group textarea,
+  .input-group button {
       display: block;
       width: 100%;
       margin-bottom: 1.5%;
   }
   
-  .contact-form button {
+  .input-group button {
       width: auto;
       padding: 10px 20px;
       background-color: #4CAF50;
@@ -141,7 +141,7 @@
       cursor: pointer;
   }
   
-  .contact-form button:hover {
+  .input-group button:hover {
   background-color: #45a049;
   }
   #h2-form{
@@ -152,10 +152,10 @@
     color: white;
     background-color: rgba(236, 236, 236, 0.1);
   }
-  .contact-form h2{
+  .input-group h2{
   text-align: center;
   }
-  .contact-form label {
+  .input-group label {
   color: gainsboro;
   }
 
